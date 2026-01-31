@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falasteen Threads | Palestinian Custom Clothing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Arabic and Palestinian Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇸</text></svg>">
+</head>
+<body class="palestine-pattern">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="flag">🇵🇸</span>
+                <span class="logo-text">Falasteen<span class="highlight">Threads</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Home
+                    </a></li>
+                    <li><a href="product.html" class="nav-link">
+                        <i class="fas fa-tshirt"></i> Products
+                    </a></li>
+                    <li><a href="services.html" class="nav-link">
+                        <i class="fas fa-paint-brush"></i> Customize
+                    </a></li>
+                    <li><a href="about.html" class="nav-link">
+                        <i class="fas fa-mosque"></i> About
+                    </a></li>
+                    <li><a href="cart.html" class="nav-link cart-link">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                
+                <div class="nav-extra">
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark Mode</span>
+                        </button>
+                    </div>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-language"></i>
+                            <span>عربي</span>
+                        </button>
+                    </div>
+                    
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="olive-branch left"></div>
+            <div class="olive-branch right"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-text">
+                    <span class="arabic-text">خيط من تراب فلسطين</span><br>
+                    Wear Your <span class="highlight">Heritage</span> with Pride
+                </h1>
+                <p class="hero-subtitle">
+                    Custom Palestinian clothing that tells our story. From traditional tatreez to modern designs, 
+                    each piece is crafted with love and resistance.
+                </p>
+                <div class="hero-actions">
+                    <a href="product.html" class="btn btn-primary">
+                        <i class="fas fa-flag"></i> Shop Collection
+                    </a>
+                    <a href="services.html" class="btn btn-outline">
+                        <i class="fas fa-palette"></i> Design Yours
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="5000">0</span>
+                        <span class="stat-label">Palestinian Designs</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="45">0</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="keffiyeh-animation">
+                    <div class="pattern-layer layer-1"></div>
+                    <div class="pattern-layer layer-2"></div>
+                    <div class="pattern-layer layer-3"></div>
+                    <div class="floating-shirt">
+                        <i class="fas fa-tshirt"></i>
+                        <div class="tatreez-pattern"></div>
+                    </div>
+                </div>
+                
+                <div class="palestine-symbols">
+                    <div class="symbol olive-branch-symbol">
+                        <i class="fas fa-leaf"></i>
+                        <span>Peace & Resilience</span>
+                    </div>
+                    <div class="symbol key-symbol">
+                        <i class="fas fa-key"></i>
+                        <span>Right of Return</span>
+                    </div>
+                    <div class="symbol handala-symbol">
+                        <i class="fas fa-child"></i>
+                        <span>Handala Spirit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="collections section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Collections</h2>
+                <p class="section-subtitle">Celebrate Palestinian culture through our curated collections</p>
+            </div>
+            
+            <div class="collections-grid" id="collectionsGrid">
+                <!-- Collections will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditional vs Modern -->
+    <section class="tradition-modern section-padding">
+        <div class="container">
+            <div class="tradition-modern-grid">
+                <div class="tradition-card">
+                    <div class="card-icon">
+                        <i class="fas fa-thread"></i>
+                    </div>
+                    <h3>Traditional Tatreez</h3>
+                    <p>Authentic Palestinian embroidery patterns passed down through generations, each stitch telling a story of heritage and identity.</p>
+                    <a href="#" class="btn btn-outline">Explore Patterns</a>
+                </div>
+                
+                <div class="modern-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Modern Designs</h3>
+                    <p>Contemporary interpretations of Palestinian symbols, blending traditional motifs with modern fashion aesthetics.</p>
+                    <a href="#" class="btn btn-outline">View Designs</a>
+                </div>
+                
+                <div class="custom-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-pen"></i>
+                    </div>
+                    <h3>Custom Creations</h3>
+                    <p>Create your unique design with our online customization tool. Tell your personal Palestinian story through clothing.</p>
+                    <a href="services.html" class="btn btn-primary">Start Creating</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="best-sellers section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Best Sellers</h2>
+                <p class="section-subtitle">Most loved Palestinian designs from our community</p>
+            </div>
+            
+            <div class="products-grid" id="bestSellersGrid">
+                <!-- Products will be loaded from JSON -->
+            </div>
+            
+            <!-- Add pagination controls -->
+            <div class="pagination-controls" id="bestSellersPagination">
+                <button class="pagination-btn prev-btn" id="prevProducts">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="pagination-numbers" id="productPageNumbers"></div>
+                <button class="pagination-btn next-btn" id="nextProducts">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="text-center">
+                <a href="product.html" class="btn btn-palestine">
+                    <i class="fas fa-flag"></i> View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="our-story section-padding">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Palestinian Embroidery">
+                        <div class="frame-decoration"></div>
+                    </div>
+                </div>
+                
+                <div class="story-content">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="arabic-text story-arabic">من خيط الأمل.. ننسج هويتنا</p>
+                    <p>Falasteen Threads was born from a simple idea: to wear our identity proudly. What started as a small project to preserve traditional Palestinian embroidery has grown into a movement.</p>
+                    <p>Each design tells a story - of resilience, of heritage, of home. Our artisans combine traditional tatreez techniques with modern sustainable practices, creating pieces that connect generations.</p>
+                    <p>10% of all profits support Palestinian cultural preservation initiatives and community projects.</p>
+                    
+                    <div class="story-values">
+                        <div class="value">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>Cultural Preservation</span>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-recycle"></i>
+                            <span>Sustainable Production</span>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-people-group"></i>
+                            <span>Community Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+<section class="testimonials section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="arabic-text">من مجتمعنا</span><br>
+                From Our Community
+            </h2>
+            <p class="section-subtitle">
+                <span class="arabic-text">ما يقوله الفلسطينيون حول العالم</span><br>
+                What Palestinians around the world are saying
+            </p>
+        </div>
+        
+        <div class="testimonials-container">
+            <div class="testimonials-track" id="testimonialsTrack">
+                <!-- Testimonials will be loaded dynamically -->
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-btn prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-pagination" id="testimonialPagination">
+                    <!-- Pagination dots will be generated -->
+                </div>
+                <button class="testimonial-btn next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Wear Your Story?</h2>
+                <p>Join thousands of Palestinians worldwide who celebrate their heritage through our custom clothing. Every purchase supports cultural preservation.</p>
+                <div class="cta-actions">
+                    <a href="services.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-palette"></i> Design Now
+                    </a>
+                    <a href="product.html" class="btn btn-outline btn-lg">
+                        <i class="fas fa-store"></i> Shop Collection
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="flag">🇵🇸</span>
+                        Falasteen<span class="highlight">Threads</span>
+                    </a>
+                    <p class="arabic-text">نحمل تراب الوطن في كل خيط</p>
+                    <p>Preserving Palestinian heritage through sustainable fashion. Each stitch tells our story.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#">Keffiyeh Collection</a></li>
+                        <li><a href="#">Tatreez Embroidery</a></li>
+                        <li><a href="#">Olive Branch Series</a></li>
+                        <li><a href="#">Al-Quds Designs</a></li>
+                        <li><a href="#">Freedom Fighter Apparel</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Custom Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@falasteenthreads.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +1 (234) 567-8900</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Everywhere Palestine Lives</p>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Falasteen Threads. All rights reserved. <span class="arabic-text">فلسطين حرة</span></p>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cultural Initiatives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/data-loader.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

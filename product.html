@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | StyleCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+
+    <!-- Arabic and Palestinian Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇸</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="flag">🇵🇸</span>
+                <span class="logo-text">Falasteen<span class="highlight">Threads</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Home
+                    </a></li>
+                    <li><a href="product.html" class="nav-link">
+                        <i class="fas fa-tshirt"></i> Products
+                    </a></li>
+                    <li><a href="services.html" class="nav-link">
+                        <i class="fas fa-paint-brush"></i> Customize
+                    </a></li>
+                    <li><a href="about.html" class="nav-link">
+                        <i class="fas fa-mosque"></i> About
+                    </a></li>
+                    <li><a href="cart.html" class="nav-link cart-link">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                
+                <div class="nav-extra">
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark Mode</span>
+                        </button>
+                    </div>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-language"></i>
+                            <span>عربي</span>
+                        </button>
+                    </div>
+                    
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Products Page Header -->
+    <section class="page-header section-padding">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="page-title">Our Products</h1>
+                <p class="page-subtitle">Discover our premium collection of customizable clothing and accessories</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a> / 
+                    <span>Products</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section with Filters -->
+    <section class="products-section section-padding">
+        <div class="container">
+            <div class="products-layout">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <div class="filters-header">
+                        <h3>Filters</h3>
+                        <button class="clear-filters">Clear All</button>
+                    </div>
+                    
+                    <!-- Category Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Category</h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="tshirts" checked>
+                                <span class="checkmark"></span>
+                                <span>T-Shirts <span class="count">(12)</span></span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="hoodies" checked>
+                                <span class="checkmark"></span>
+                                <span>Hoodies <span class="count">(8)</span></span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="sweatshirts" checked>
+                                <span class="checkmark"></span>
+                                <span>Sweatshirts <span class="count">(6)</span></span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="jackets" checked>
+                                <span class="checkmark"></span>
+                                <span>Jackets <span class="count">(4)</span></span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" name="category" value="accessories" checked>
+                                <span class="checkmark"></span>
+                                <span>Accessories <span class="count">(5)</span></span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Price Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Price Range</h4>
+                        <div class="price-range">
+                            <div class="price-inputs">
+                                <input type="number" class="price-input" id="minPrice" placeholder="Min" value="0" min="0" max="1000">
+                                <span>-</span>
+                                <input type="number" class="price-input" id="maxPrice" placeholder="Max" value="100" min="0" max="1000">
+                            </div>
+                            <div class="slider-container">
+                                <div class="price-slider">
+                                    <div class="slider-track"></div>
+                                    <input type="range" class="range-min" min="0" max="1000" value="0">
+                                    <input type="range" class="range-max" min="0" max="1000" value="1000">
+                                </div>
+                            </div>
+                            <div class="price-display">
+                                <span id="minValueDisplay">$0</span>
+                                <span id="maxValueDisplay">$100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Size Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Size</h4>
+                        <div class="size-filters">
+                            <button class="size-filter active">S</button>
+                            <button class="size-filter">M</button>
+                            <button class="size-filter">L</button>
+                            <button class="size-filter">XL</button>
+                            <button class="size-filter">XXL</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Color Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Color</h4>
+                        <div class="color-filters">
+                            <button class="color-filter" style="background-color: #000000" data-color="Black" title="Black"></button>
+                            <button class="color-filter" style="background-color: #ffffff" data-color="White" title="White"></button>
+                            <button class="color-filter" style="background-color: #556B2F" data-color="Olive" title="Olive"></button>
+                            <button class="color-filter" style="background-color: #CE1126" data-color="Red" title="Red"></button>
+                            <button class="color-filter" style="background-color: #3b82f6" data-color="Blue" title="Blue"></button>
+                            <button class="color-filter" style="background-color: #10b981" data-color="Green" title="Green"></button>
+                            <button class="color-filter" style="background-color: #8b5cf6" data-color="Purple" title="Purple"></button>
+                            <button class="color-filter" style="background-color: #f59e0b" data-color="Orange" title="Orange"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Sort Options -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Sort By</h4>
+                        <select class="sort-select">
+                            <option value="featured">Featured</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="rating">Customer Rating</option>
+                            <option value="newest">Newest Arrivals</option>
+                            <option value="best-selling">Best Selling</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Apply Filters Button -->
+                    <button class="btn btn-primary apply-filters">Apply Filters</button>
+                </aside>
+                
+                <!-- Products Grid -->
+                <div class="products-grid-container">
+                    <div class="products-header">
+                        <div class="results-info">
+                            <h2>All Products</h2>
+                            <p class="results-count">Showing <span id="showingCount">35</span> of <span id="totalCount">35</span> products</p>
+                        </div>
+                        
+                        <div class="view-options">
+                            <button class="view-option active" data-view="grid">
+                                <i class="fas fa-th"></i>
+                            </button>
+                            <button class="view-option" data-view="list">
+                                <i class="fas fa-list"></i>
+                            </button>
+                            <div class="mobile-filters-toggle">
+                                <button class="btn btn-outline" id="mobileFiltersBtn">
+                                    <i class="fas fa-filter"></i> Filters
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Products Grid -->
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Products will be loaded dynamically from products.js -->
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn prev-btn" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="page-numbers">
+                            <button class="page-btn active">1</button>
+                            <button class="page-btn">2</button>
+                            <button class="page-btn">3</button>
+                            <span class="page-dots">...</span>
+                            <button class="page-btn">5</button>
+                        </div>
+                        <button class="page-btn next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Custom Designs?</h2>
+                <p>Create your own unique designs with our customization services</p>
+                <a href="services.html" class="btn btn-primary btn-lg">Start Designing</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="flag">🇵🇸</span>
+                        Falasteen<span class="highlight">Threads</span>
+                    </a>
+                    <p class="arabic-text">نحمل تراب الوطن في كل خيط</p>
+                    <p>Preserving Palestinian heritage through sustainable fashion. Each stitch tells our story.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#">Keffiyeh Collection</a></li>
+                        <li><a href="#">Tatreez Embroidery</a></li>
+                        <li><a href="#">Olive Branch Series</a></li>
+                        <li><a href="#">Al-Quds Designs</a></li>
+                        <li><a href="#">Freedom Fighter Apparel</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Custom Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@falasteenthreads.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +1 (234) 567-8900</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Everywhere Palestine Lives</p>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Falasteen Threads. All rights reserved. <span class="arabic-text">فلسطين حرة</span></p>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cultural Initiatives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Filters Overlay -->
+    <div class="mobile-filters-overlay" id="mobileFiltersOverlay">
+        <div class="mobile-filters-container">
+            <div class="mobile-filters-header">
+                <h3>Filters</h3>
+                <button class="close-filters" id="closeFiltersBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="mobile-filters-content">
+                <!-- Filters will be copied from sidebar -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

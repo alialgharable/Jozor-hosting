@@ -1,0 +1,100 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "ليلى حسن",
+      "arabicName": "ليلى حسن",
+      "location": "رام الله",
+      "arabicLocation": "رام الله",
+      "rating": 5,
+      "comment": "جودة هذه القمصان استثنائية! تصميم الكوفية مطبوع بشكل جميل والقماش شعور رائع. كل قطعة تحكي قصة تراثنا.",
+      "arabicComment": "جودة هذه القمصان استثنائية! تصميم الكوفية مطبوع بشكل جميل والقماش شعور رائع. كل قطعة تحكي قصة تراثنا.",
+      "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+      "date": "2023-10-15"
+    },
+    {
+      "id": 2,
+      "name": "Omar Khalil",
+      "arabicName": "عمر خليل",
+      "location": "Gaza",
+      "arabicLocation": "غزة",
+      "rating": 5,
+      "comment": "As a Palestinian living abroad, wearing these designs makes me feel connected to home. The embroidery work is authentic and the materials are top-quality.",
+      "arabicComment": "كفلسطيني يعيش في الخارج، ارتداء هذه التصاميم يجعلني أشعر بالاتصال بالوطن. أعمال التطريز أصلية والمواد ذات جودة عالية.",
+      "avatar": "https://randomuser.me/api/portraits/men/54.jpg",
+      "date": "2023-11-02"
+    },
+    {
+      "id": 3,
+      "name": "Rana Suleiman",
+      "arabicName": "رنا سليمان",
+      "location": "Jerusalem",
+      "arabicLocation": "القدس",
+      "rating": 4,
+      "comment": "Beautiful designs that celebrate our culture. I ordered custom shirts for my entire family and they arrived perfectly. The customer service was excellent!",
+      "arabicComment": "تصاميم جميلة تحتفل بثقافتنا. لقد طلبت قمصانًا مخصصة لعائلتي بأكملها ووصلت بشكل مثالي. خدمة العملاء كانت ممتازة!",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
+      "date": "2023-11-20"
+    },
+    {
+      "id": 4,
+      "name": "Ahmed Nasser",
+      "arabicName": "أحمد ناصر",
+      "location": "Nablus",
+      "arabicLocation": "نابلس",
+      "rating": 5,
+      "comment": "The attention to detail in every stitch is remarkable. These pieces are not just clothing, they're wearable art that tells our Palestinian story.",
+      "arabicComment": "الاهتمام بالتفاصيل في كل غرزة رائع. هذه القطع ليست مجرد ملابس، بل هي فن يمكن ارتداؤه يحكي قصتنا الفلسطينية.",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg",
+      "date": "2023-11-28"
+    },
+    {
+      "id": 5,
+      "name": "Mona Haddad",
+      "arabicName": "منى حداد",
+      "location": "Bethlehem",
+      "arabicLocation": "بيت لحم",
+      "rating": 4,
+      "comment": "Sustainable fashion that supports Palestinian artisans. Every purchase feels like supporting our community and preserving our heritage.",
+      "arabicComment": "موضة مستدامة تدعم الحرفيين الفلسطينيين. كل عملية شراء تشعر وكأنها دعم لمجتمعنا والحفاظ على تراثنا.",
+      "avatar": "https://randomuser.me/api/portraits/women/55.jpg",
+      "date": "2023-12-05"
+    },
+    {
+      "id": 6,
+      "name": "Samir Abed",
+      "arabicName": "سمير عابد",
+      "location": "Haifa",
+      "arabicLocation": "حيفا",
+      "rating": 5,
+      "comment": "The quality exceeds expectations. These are heirloom pieces that I'll pass down to my children to keep our traditions alive.",
+      "arabicComment": "الجودة تتجاوز التوقعات. هذه قطع ثمينة سأنقلها إلى أطفالي لإبقاء تقاليدنا حية.",
+      "avatar": "https://randomuser.me/api/portraits/men/33.jpg",
+      "date": "2023-12-10"
+    },
+    {
+      "id": 7,
+      "name": "Yasmin Fares",
+      "arabicName": "ياسمين فارس",
+      "location": "Jaffa",
+      "arabicLocation": "يافا",
+      "rating": 4,
+      "comment": "Modern designs with traditional Palestinian soul. Perfect for everyday wear that still shows pride in our heritage.",
+      "arabicComment": "تصاميم عصرية بروح فلسطينية تقليدية. مثالية للارتداء اليومي الذي يظهر فخرنا بتراثنا.",
+      "avatar": "https://randomuser.me/api/portraits/women/48.jpg",
+      "date": "2023-12-15"
+    },
+    {
+      "id": 8,
+      "name": "Khalid Mahmoud",
+      "arabicName": "خالد محمود",
+      "location": "Hebron",
+      "arabicLocation": "الخليل",
+      "rating": 5,
+      "comment": "The tatreez embroidery is exactly like my grandmother used to make. It brings back beautiful memories of home.",
+      "arabicComment": "تطريز التطريز يشبه تمامًا ما كانت تصنعه جدتي. يعيد ذكريات جميلة عن الوطن.",
+      "avatar": "https://randomuser.me/api/portraits/men/60.jpg",
+      "date": "2023-12-20"
+    }
+  ]
+}

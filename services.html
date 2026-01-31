@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Design Services | StyleCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap"
+        rel="stylesheet">
+    <!-- Arabic and Palestinian Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇸</text></svg>">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="flag">🇵🇸</span>
+                <span class="logo-text">Falasteen<span class="highlight">Threads</span></span>
+            </a>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">
+                            <i class="fas fa-home"></i> Home
+                        </a></li>
+                    <li><a href="product.html" class="nav-link">
+                            <i class="fas fa-tshirt"></i> Products
+                        </a></li>
+                    <li><a href="services.html" class="nav-link">
+                            <i class="fas fa-paint-brush"></i> Customize
+                        </a></li>
+                    <li><a href="about.html" class="nav-link">
+                            <i class="fas fa-mosque"></i> About
+                        </a></li>
+                    <li><a href="cart.html" class="nav-link cart-link">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span class="cart-count">0</span>
+                        </a></li>
+                </ul>
+
+                <div class="nav-extra">
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark Mode</span>
+                        </button>
+                    </div>
+
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-language"></i>
+                            <span>عربي</span>
+                        </button>
+                    </div>
+
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Services Header -->
+    <section class="services-header section-padding">
+        <div class="container">
+            <h1 class="section-title">Custom Design Services</h1>
+            <p class="section-subtitle">Create your perfect custom clothing piece with our easy-to-use design tools</p>
+        </div>
+    </section>
+
+    <!-- Customization Tool -->
+    <section class="customization-tool section-padding">
+        <div class="container">
+            <div class="customization-layout">
+                <!-- Design Preview -->
+                <div class="design-preview">
+                    <div class="preview-container">
+                        <div id="loader" class="loader hidden">
+                            <div class="spinner"></div>
+                            <p id="loader-text">Loading…</p>
+                        </div>
+                        <canvas id="threeCanvas"></canvas>
+                    </div>
+
+                    <div class="preview-controls">
+                        <div class="view-controls-group">
+                            <div class="view-controls-header">
+                                <h4>View Mode</h4>
+                                <div class="view-controls-help" title="Click to cycle through views">
+                                    <i class="fas fa-info-circle"></i>
+                                </div>
+                            </div>
+                            <div class="view-controls-buttons">
+
+                            </div>
+                        </div>
+
+                        <div class="action-controls">
+                            <button class="btn btn-outline control-btn" id="rotatePreview" title="Rotate Garment">
+                                <i class="fas fa-redo-alt"></i>
+                                <span>Rotate Garment</span>
+                            </button>
+                            <button class="btn btn-outline control-btn" id="resetDesign" title="Reset All Changes">
+                                <i class="fas fa-undo"></i>
+                                <span>Reset Design</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customization Options -->
+                <div class="customization-options">
+                    <div class="options-tabs">
+                        <button class="tab-btn active" data-tab="garment">Garment Type</button>
+                        <button class="tab-btn" data-tab="design">Design</button>
+                        <button class="tab-btn" data-tab="text">Text</button>
+                        <button class="tab-btn" data-tab="colors">Colors</button>
+                    </div>
+
+                    <div class="tab-content active" id="garmentTab">
+                        <h3>Select Garment Type</h3>
+                        <div class="garment-options">
+                            <div class="garment-option active" data-garment="tshirt">
+                                <i class="fas fa-tshirt"></i>
+                                <span>T-Shirt</span>
+                            </div>
+                            <div class="garment-option" data-garment="hoodie">
+                                <i class="fas fa-hoodie"></i>
+                                <span>Hoodie</span>
+                            </div>
+                            <div class="garment-option" data-garment="shirt">
+                                <i class="fas fa-shirt"></i>
+                                <span>Polo Shirt</span>
+                            </div>
+                            <div class="garment-option" data-garment="jacket">
+                                <i class="fas fa-jacket"></i>
+                                <span>Jacket</span>
+                            </div>
+                            <div class="garment-option" data-garment="cap">
+                                <i class="fas fa-hat-cowboy"></i>
+                                <span>Cap</span>
+                            </div>
+                            <div class="garment-option" data-garment="sweatshirt">
+                                <i class="fas fa-tshirt"></i>
+                                <span>Sweatshirt</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="designTab">
+                        <h3>Choose Placement</h3>
+
+                        <!-- ✅ Placement buttons instead of “default designs” -->
+                        <div class="design-options placement-options">
+                            <button type="button" class="design-option placement-btn active" data-zone="chest">
+                                <i class="fas fa-shirt"></i>
+                                <span>Chest</span>
+                            </button>
+
+                            <button type="button" class="design-option placement-btn" data-zone="back">
+                                <i class="fas fa-rotate"></i>
+                                <span>Back</span>
+                            </button>
+
+                            <button type="button" class="design-option placement-btn" data-zone="leftSleeve">
+                                <i class="fas fa-hand-point-left"></i>
+                                <span>Left Sleeve</span>
+                            </button>
+
+                            <button type="button" class="design-option placement-btn" data-zone="rightSleeve">
+                                <i class="fas fa-hand-point-right"></i>
+                                <span>Right Sleeve</span>
+                            </button>
+                        </div>
+
+                        <!-- ✅ slider becomes its own clean row -->
+                        <div class="placement-controls">
+                            <div class="placement-row">
+                                <div><button id="dragToggleBtn" class="toggle-btn active">Drag: ON</button></div>
+                                <label for="decalSizeRange">Design Size</label>
+                                <input id="decalSizeRange" class="drag-slider" type="range" min="0.2" max="1.2"
+                                    step="0.01" value="0.55"
+                                    oninput="Renderer3D.setDecalSize(parseFloat(this.value))" />
+
+                            </div>
+
+                            <p class="upload-note placement-note">
+                                Placement: <strong id="placementLabel">Chest</strong>
+                            </p>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Rotation</label>
+                            <input type="range" id="imageRotation" class="design-slider" min="-180" max="180"
+                                value="0" />
+
+
+                        </div>
+
+                        <div class="form-group">
+                            <button id="deleteDecalBtn" class="btn btn-outline danger-btn" disabled>
+                                <i class="fas fa-trash"></i>
+                                Delete Design
+                            </button>
+                        </div>
+
+
+
+                        <!-- ✅ Upload stays here -->
+                        <div class="upload-design">
+                            <h4>Upload Your Design</h4>
+                            <div class="upload-area" id="uploadArea">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Drag & drop your image here or click to browse</p>
+                                <input type="file" id="designUpload" accept="image/*" hidden>
+                            </div>
+                            <p class="upload-note">Supported formats: JPG, PNG, SVG (Max 5MB)</p>
+                            <p class="upload-note" style="opacity:0.9;">
+                                Placement: <strong id="placementLabel">Chest</strong>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-content" id="textTab">
+                        <h3>Add Custom Text</h3>
+
+                        <div class="text-options">
+                            <div class="form-group" id="text-form">
+                                <label for="customText">Your Text</label>
+                                <input type="text" id="customText" placeholder="Enter your custom text" value=""
+                                    aria-placeholder="Your text here">
+                                <button type="button" id="applyTextBtn" class="btn">
+                                    Add Text to Hoodie
+                                </button>
+                            </div>
+
+                            <!-- TEXT PLACEMENT -->
+                            <div class="form-group">
+                                <label>Text Placement</label>
+                                <div class="design-options"> <button type="button"
+                                        class="design-option text-placement-btn active" data-zone="chest">
+                                        <i class="fas fa-shirt"></i>
+                                        <span>Chest</span>
+                                    </button>
+
+                                    <button type="button" class="design-option text-placement-btn" data-zone="back">
+                                        <i class="fas fa-rotate"></i>
+                                        <span>Back</span>
+                                    </button>
+
+                                    <button type="button" class="design-option text-placement-btn"
+                                        data-zone="leftSleeve">
+                                        <i class="fas fa-hand-point-left"></i>
+                                        <span>Left Sleeve</span>
+                                    </button>
+
+                                    <button type="button" class="design-option text-placement-btn"
+                                        data-zone="rightSleeve">
+                                        <i class="fas fa-hand-point-right"></i>
+                                        <span>Right Sleeve</span>
+                                    </button>
+                                </div>
+
+
+
+                                <small class="hint">
+                                    Choose where the text will appear on the hoodie
+                                </small>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="fontFamily">Font Style</label>
+                                <select id="fontFamily">
+                                    <option value="Arial">Arial</option>
+                                    <option value="Courier New">Courier New</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Times New Roman">Times New Roman</option>
+                                    <option value="Comic Sans MS">Comic Sans</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="textSize">Text Size</label>
+                                <input type="range" id="textSize" min="10" max="120" value="60">
+                                <span class="range-value" id="textSizeValue">60px</span>
+                                <small class="hint">This controls how sharp/bold the text looks</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Rotation</label>
+                                <input type="range" id="textRotation" min="-180" max="180" value="0" />
+
+                            </div>
+
+                            <div class="form-group">
+                                <button id="deleteTextBtn" class="btn btn-outline danger-btn" disabled>
+                                    <i class="fas fa-trash"></i>
+                                    Delete Text
+                                </button>
+                            </div>
+
+
+
+                            <!-- Optional but recommended -->
+                            <div class="form-group">
+                                <label for="textStroke">Outline (recommended)</label>
+                                <select id="textStroke">
+                                    <option value="on" selected>On</option>
+                                    <option value="off">Off</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Text Color</label>
+                                <div class="color-picker" id="textColorPicker">
+                                    <div class="color-option active" style="background-color:#000000"
+                                        data-color="#000000"></div>
+                                    <div class="color-option" style="background-color:#ffffff" data-color="#ffffff">
+                                    </div>
+                                    <div class="color-option" style="background-color:#6d28d9" data-color="#6d28d9">
+                                    </div>
+                                    <div class="color-option" style="background-color:#f472b6" data-color="#f472b6">
+                                    </div>
+                                    <div class="color-option" style="background-color:#10b981" data-color="#10b981">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- New: add text button -->
+                            <div class="form-group">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-content" id="colorsTab">
+                        <h3>Choose Colors</h3>
+                        <div class="color-options">
+                            <div class="form-group">
+                                <label>Garment Color</label>
+                                <div class="color-picker">
+                                    <div class="color-option active" style="background-color: #ffffff"
+                                        data-color="#ffffff"></div>
+                                    <div class="color-option" style="background-color: #000000" data-color="#000000">
+                                    </div>
+                                    <div class="color-option" style="background-color: #6d28d9" data-color="#6d28d9">
+                                    </div>
+                                    <div class="color-option" style="background-color: #f472b6" data-color="#f472b6">
+                                    </div>
+                                    <div class="color-option" style="background-color: #10b981" data-color="#10b981">
+                                    </div>
+                                    <div class="color-option" style="background-color: #f59e0b" data-color="#f59e0b">
+                                    </div>
+                                    <div class="color-option" style="background-color: #3b82f6" data-color="#3b82f6">
+                                    </div>
+                                    <div class="color-option" style="background-color: #ef4444" data-color="#ef4444">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="design-summary">
+                        <h3>Your Custom Design</h3>
+                        <div class="summary-details">
+                            <div class="summary-item">
+                                <span>Garment:</span>
+                                <span id="summaryGarment">T-Shirt</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Design:</span>
+                                <span id="summaryDesign">Star</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Text:</span>
+                                <span id="summaryText">Your Text Here</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Price:</span>
+                                <span class="price" id="designPrice">$29.99</span>
+                            </div>
+                        </div>
+
+                        <div class="design-actions">
+                            <button class="btn btn-outline" id="saveDesign">
+                                <i class="fas fa-heart"></i> Save Design
+                            </button>
+                            <button class="btn btn-primary" id="addToCart">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </button>
+                            <button class="btn btn-primary" id="contactDesigner">
+                                <i class="fab fa-whatsapp"></i> Contact Designer
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Gallery -->
+    <section class="design-gallery section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Design Inspiration</h2>
+                <p class="section-subtitle">Check out some of our most popular custom designs</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background-color: #6d28d920">
+                        <i class="fas fa-tshirt"></i>
+                        <div class="gallery-design">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <div class="gallery-text">Rock Band</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Band Merch Tee</h4>
+                        <p>Perfect for music lovers</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background-color: #f472b620">
+                        <i class="fas fa-hoodie"></i>
+                        <div class="gallery-design">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <div class="gallery-text">Pet Lover</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Animal Lover Hoodie</h4>
+                        <p>Cozy and expressive</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background-color: #10b98120">
+                        <i class="fas fa-shirt"></i>
+                        <div class="gallery-design">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="gallery-text">Company Logo</div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Corporate Polo</h4>
+                        <p>Professional branding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="flag">🇵🇸</span>
+                        Falasteen<span class="highlight">Threads</span>
+                    </a>
+                    <p class="arabic-text">نحمل تراب الوطن في كل خيط</p>
+                    <p>Preserving Palestinian heritage through sustainable fashion. Each stitch tells our story.</p>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#">Keffiyeh Collection</a></li>
+                        <li><a href="#">Tatreez Embroidery</a></li>
+                        <li><a href="#">Olive Branch Series</a></li>
+                        <li><a href="#">Al-Quds Designs</a></li>
+                        <li><a href="#">Freedom Fighter Apparel</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Custom Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@falasteenthreads.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +1 (234) 567-8900</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Everywhere Palestine Lives</p>
+                    </div>
+
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 Falasteen Threads. All rights reserved. <span class="arabic-text">فلسطين حرة</span></p>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cultural Initiatives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/three@0.146.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/examples/js/geometries/DecalGeometry.js"></script>
+
+    <script src="js/renderer3d.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/services.js"></script>
+
+
+</body>
+
+</html>

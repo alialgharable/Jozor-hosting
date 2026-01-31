@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | StyleCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <!-- Arabic and Palestinian Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇸</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="flag">🇵🇸</span>
+                <span class="logo-text">Falasteen<span class="highlight">Threads</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Home
+                    </a></li>
+                    <li><a href="product.html" class="nav-link">
+                        <i class="fas fa-tshirt"></i> Products
+                    </a></li>
+                    <li><a href="services.html" class="nav-link">
+                        <i class="fas fa-paint-brush"></i> Customize
+                    </a></li>
+                    <li><a href="about.html" class="nav-link">
+                        <i class="fas fa-mosque"></i> About
+                    </a></li>
+                    <li><a href="cart.html" class="nav-link cart-link">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                
+                <div class="nav-extra">
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark Mode</span>
+                        </button>
+                    </div>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-language"></i>
+                            <span>عربي</span>
+                        </button>
+                    </div>
+                    
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Header -->
+    <section class="cart-header section-padding">
+        <div class="container">
+            <h1 class="section-title">Your Shopping Cart</h1>
+            <p class="section-subtitle">Review your custom clothing selections before proceeding to checkout</p>
+        </div>
+    </section>
+
+    <!-- Cart Content -->
+    <section class="cart-content">
+        <div class="container">
+            <div class="cart-layout">
+                <!-- Cart Items -->
+                <div class="cart-items">
+                    <div class="cart-empty" id="cartEmpty">
+                        <div class="empty-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h3>Your cart is empty</h3>
+                        <p>Add some custom clothing items to get started!</p>
+                        <a href="services.html" class="btn btn-primary">Start Designing</a>
+                    </div>
+                    
+                    <div class="cart-items-list" id="cartItemsList">
+                        <!-- Cart items will be populated by JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span id="subtotal">$0.00</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Shipping</span>
+                            <span id="shipping">$5.99</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax</span>
+                            <span id="tax">$0.00</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span id="total">$0.00</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>
+                        Proceed to Checkout
+                    </button>
+                    
+                    <div class="payment-methods">
+                        <p>We accept:</p>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Complete Your Order</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <form id="checkoutForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Shipping Address</label>
+                        <textarea id="address" rows="3" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Design Notes (Optional)</label>
+                        <textarea id="notes" rows="3" placeholder="Any specific instructions for your custom designs..."></textarea>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-outline close-modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> Proceed to WhatsApp
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="flag">🇵🇸</span>
+                        Falasteen<span class="highlight">Threads</span>
+                    </a>
+                    <p class="arabic-text">نحمل تراب الوطن في كل خيط</p>
+                    <p>Preserving Palestinian heritage through sustainable fashion. Each stitch tells our story.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#">Keffiyeh Collection</a></li>
+                        <li><a href="#">Tatreez Embroidery</a></li>
+                        <li><a href="#">Olive Branch Series</a></li>
+                        <li><a href="#">Al-Quds Designs</a></li>
+                        <li><a href="#">Freedom Fighter Apparel</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Custom Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@falasteenthreads.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +1 (234) 567-8900</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Everywhere Palestine Lives</p>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Falasteen Threads. All rights reserved. <span class="arabic-text">فلسطين حرة</span></p>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cultural Initiatives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

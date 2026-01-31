@@ -1,0 +1,1209 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Palestinian Keffiyeh Print T-Shirt",
+      "price": 34.99,
+      "originalPrice": 44.99,
+      "category": "tshirts",
+      "description": "High-quality organic cotton t-shirt featuring traditional Palestinian keffiyeh pattern. Made with eco-friendly dyes and sustainable materials.",
+      "detailedDescription": "This premium t-shirt combines traditional Palestinian heritage with modern comfort. The keffiyeh pattern is digitally printed using eco-friendly inks that won't fade or crack. Made from 100% organic cotton, it's breathable, soft, and perfect for everyday wear. The fabric is pre-shrunk and maintains its shape wash after wash.",
+      "rating": 4.8,
+      "reviewCount": 142,
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Black & White",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Olive Green",
+          "hex": "#556B2F",
+          "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Palestinian Red",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% Organic Cotton"},
+        {"label": "Weight", "value": "180 GSM"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Origin", "value": "Made with care in ethical facilities"},
+        {"label": "Print Type", "value": "Digital Print"},
+        {"label": "Sleeve Type", "value": "Short Sleeve"},
+        {"label": "Neckline", "value": "Crew Neck"}
+      ],
+      "reviews": [
+        {
+          "name": "Ahmed Mahmoud",
+          "rating": 5,
+          "comment": "The quality is outstanding! The keffiyeh design is beautifully printed and the fabric is incredibly soft. I've washed it multiple times and the colors haven't faded at all.",
+          "date": "2 weeks ago",
+          "avatar": "AM"
+        },
+        {
+          "name": "Sarah Johnson",
+          "rating": 4,
+          "comment": "Great fit and comfortable fabric. The design is meaningful and well-executed. Would recommend to anyone looking for quality Palestinian apparel.",
+          "date": "1 month ago",
+          "avatar": "SJ"
+        },
+        {
+          "name": "Omar Khalil",
+          "rating": 5,
+          "comment": "Perfect for showing solidarity while staying comfortable. The organic cotton feels great against the skin and the print quality is excellent.",
+          "date": "3 weeks ago",
+          "avatar": "OK"
+        }
+      ],
+      "tags": ["keffiyeh", "traditional", "best-seller", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "100% Organic Cotton",
+      "sustainability": "Eco-friendly Production"
+    },
+    {
+      "id": 2,
+      "name": "Olive Branch Embroidered Hoodie",
+      "price": 59.99,
+      "originalPrice": 69.99,
+      "category": "hoodies",
+      "description": "Premium hoodie with hand-embroidered olive branch design symbolizing peace and resilience. Made from recycled materials.",
+      "detailedDescription": "Crafted with attention to detail, this hoodie features intricate hand-embroidery of the olive branch - a symbol of peace in Palestinian culture. Made from recycled cotton blend, it offers both comfort and environmental consciousness. The hoodie includes a kangaroo pocket, adjustable drawstrings, and ribbed cuffs for a perfect fit.",
+      "rating": 4.9,
+      "reviewCount": 89,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "Olive Green",
+          "hex": "#556B2F",
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454F",
+          "image": "https://images.unsplash.com/photo-1578763460783-4c4e5c5c5b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Sand",
+          "hex": "#C2B280",
+          "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578763460783-4c4e5c5c5b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Recycled Cotton Blend (80% Cotton, 20% Polyester)"},
+        {"label": "Weight", "value": "320 GSM"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Embroidery", "value": "Hand-stitched Olive Branch"},
+        {"label": "Features", "value": "Kangaroo Pocket, Adjustable Drawstrings"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Line dry recommended"},
+        {"label": "Origin", "value": "Ethically produced"},
+        {"label": "Sustainability", "value": "Made from 70% recycled materials"}
+      ],
+      "reviews": [
+        {
+          "name": "Layla Hassan",
+          "rating": 5,
+          "comment": "The embroidery is absolutely beautiful and the quality is top-notch. Very warm and comfortable, perfect for cooler weather.",
+          "date": "2 weeks ago",
+          "avatar": "LH"
+        },
+        {
+          "name": "Mike Chen",
+          "rating": 5,
+          "comment": "Best hoodie I've ever owned. The olive branch embroidery is so detailed and meaningful. The recycled materials feel great knowing I'm supporting sustainable fashion.",
+          "date": "1 month ago",
+          "avatar": "MC"
+        },
+        {
+          "name": "Rana Suleiman",
+          "rating": 4,
+          "comment": "Love the design and the message it carries. The fit is perfect and it's become my favorite hoodie. The quality exceeds expectations.",
+          "date": "3 weeks ago",
+          "avatar": "RS"
+        }
+      ],
+      "tags": ["olive", "peace", "embroidery", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Recycled Cotton Blend",
+      "sustainability": "Water-saving Production"
+    },
+    {
+      "id": 3,
+      "name": "Palestine Map Sweatshirt",
+      "price": 49.99,
+      "category": "sweatshirts",
+      "description": "Comfortable sweatshirt featuring a minimalist map of Palestine design. Perfect for showing solidarity and cultural pride.",
+      "detailedDescription": "This French terry sweatshirt features a subtle yet powerful minimalist map of Palestine design. Made from premium French terry cotton, it offers superior comfort and durability. The design is screen printed with eco-friendly inks for long-lasting wear. Perfect for everyday use or as a statement piece of cultural pride.",
+      "rating": 4.7,
+      "reviewCount": 203,
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Freedom Red",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% French Terry Cotton"},
+        {"label": "Weight", "value": "280 GSM"},
+        {"label": "Fit", "value": "Relaxed Fit"},
+        {"label": "Print Type", "value": "Screen Print"},
+        {"label": "Ink Type", "value": "Eco-friendly Water-based Inks"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Design", "value": "Minimalist Palestine Map"},
+        {"label": "Sustainability", "value": "Carbon Neutral Production"}
+      ],
+      "reviews": [
+        {
+          "name": "Yousef Ahmed",
+          "rating": 5,
+          "comment": "The map design is subtle yet powerful. The sweatshirt is incredibly comfortable and has held up well after multiple washes. Great quality!",
+          "date": "1 week ago",
+          "avatar": "YA"
+        },
+        {
+          "name": "Maria Gonzalez",
+          "rating": 4,
+          "comment": "Love the minimalist design and the message it represents. The fabric is soft and warm, perfect for casual wear.",
+          "date": "2 months ago",
+          "avatar": "MG"
+        },
+        {
+          "name": "David Wilson",
+          "rating": 5,
+          "comment": "Excellent quality sweatshirt. The print is clear and hasn't cracked after several washes. Highly recommend for anyone showing solidarity.",
+          "date": "3 weeks ago",
+          "avatar": "DW"
+        }
+      ],
+      "tags": ["map", "solidarity", "popular"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "French Terry Cotton",
+      "sustainability": "Carbon Neutral Shipping"
+    },
+    {
+      "id": 4,
+      "name": "Traditional Tatreez Cap",
+      "price": 29.99,
+      "category": "accessories",
+      "description": "Baseball cap featuring authentic Palestinian tatreez embroidery patterns. Adjustable strap for perfect fit.",
+      "detailedDescription": "This baseball cap showcases authentic Palestinian tatreez embroidery, a traditional craft passed down through generations. Each cap features hand-stitched patterns that tell a story of Palestinian heritage. Made from organic cotton twill with an adjustable strap for comfortable fit. Perfect for sun protection or as a fashion statement.",
+      "rating": 4.6,
+      "reviewCount": 67,
+      "sizes": ["One Size"],
+      "colors": [
+        {
+          "name": "Black & Red",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "White & Green",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Navy & Gold",
+          "hex": "#000080",
+          "image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Organic Cotton Twill"},
+        {"label": "Embroidery", "value": "Hand-stitched Tatreez"},
+        {"label": "Closure", "value": "Adjustable Strap"},
+        {"label": "Bill", "value": "Curved, Pre-curved"},
+        {"label": "Fit", "value": "One Size Fits Most"},
+        {"label": "Care Instructions", "value": "Spot clean recommended"},
+        {"label": "Origin", "value": "Handmade by Palestinian artisans"},
+        {"label": "Certification", "value": "Fair Trade Certified"}
+      ],
+      "reviews": [
+        {
+          "name": "Nadia Fares",
+          "rating": 5,
+          "comment": "Beautiful tatreez embroidery! The craftsmanship is amazing and it fits perfectly. I get compliments every time I wear it.",
+          "date": "3 weeks ago",
+          "avatar": "NF"
+        },
+        {
+          "name": "James Miller",
+          "rating": 4,
+          "comment": "Great quality cap with meaningful embroidery. The adjustable strap ensures perfect fit. Very comfortable for all-day wear.",
+          "date": "1 month ago",
+          "avatar": "JM"
+        },
+        {
+          "name": "Fatima Ali",
+          "rating": 5,
+          "comment": "As a Palestinian, this cap makes me proud. The tatreez patterns are authentic and beautifully done. Excellent product!",
+          "date": "2 weeks ago",
+          "avatar": "FA"
+        }
+      ],
+      "tags": ["tatreez", "traditional", "embroidery", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Organic Cotton Twill",
+      "sustainability": "Fair Trade Certified"
+    },
+    {
+      "id": 5,
+      "name": "Al-Quds Embroidery Jacket",
+      "price": 79.99,
+      "category": "jackets",
+      "description": "Stylish jacket with detailed Al-Quds (Jerusalem) skyline embroidery. Features traditional Palestinian color patterns.",
+      "detailedDescription": "This premium jacket features intricate embroidery of the Al-Quds (Jerusalem) skyline, capturing the essence of this sacred city. Made from water-resistant polyester with a soft lining, it's both stylish and functional. The embroidery uses traditional Palestinian colors and patterns, making each jacket a wearable piece of art.",
+      "rating": 4.9,
+      "reviewCount": 54,
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Army Green",
+          "hex": "#4B5320",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Dark Blue",
+          "hex": "#00008B",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Water-resistant Polyester"},
+        {"label": "Lining", "value": "Soft Polyester Lining"},
+        {"label": "Embroidery", "value": "Al-Quds Skyline Design"},
+        {"label": "Features", "value": "Zipper Closure, Two Pockets"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Care Instructions", "value": "Machine wash gentle, Line dry"},
+        {"label": "Water Resistance", "value": "Light Water Resistant"},
+        {"label": "Sustainability", "value": "Made from recycled materials"}
+      ],
+      "reviews": [
+        {
+          "name": "Samir Nasser",
+          "rating": 5,
+          "comment": "The Al-Quds embroidery is breathtaking! The jacket is well-made and keeps me warm. The attention to detail is impressive.",
+          "date": "2 months ago",
+          "avatar": "SN"
+        },
+        {
+          "name": "Lena Kattan",
+          "rating": 5,
+          "comment": "Absolutely beautiful jacket. The embroidery work is incredible and it's become my favorite outerwear. Quality is outstanding.",
+          "date": "1 month ago",
+          "avatar": "LK"
+        },
+        {
+          "name": "Carlos Rodriguez",
+          "rating": 4,
+          "comment": "Great jacket with meaningful design. The water resistance works well for light rain. Very comfortable and stylish.",
+          "date": "3 weeks ago",
+          "avatar": "CR"
+        }
+      ],
+      "tags": ["al-quds", "jerusalem", "limited"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "Water-resistant Polyester",
+      "sustainability": "Recycled Materials"
+    },
+    {
+      "id": 6,
+      "name": "Freedom Fighter T-Shirt",
+      "price": 39.99,
+      "category": "tshirts",
+      "description": "T-shirt celebrating Palestinian resilience with symbolic designs of keys, olive branches, and traditional patterns.",
+      "detailedDescription": "This powerful t-shirt celebrates Palestinian resilience through symbolic designs including keys (representing the right of return), olive branches (symbol of peace), and traditional patterns. Made from ring-spun cotton for superior softness and durability. The design is printed with eco-friendly inks that maintain their vibrancy wash after wash.",
+      "rating": 4.8,
+      "reviewCount": 178,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Red",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% Ring-spun Cotton"},
+        {"label": "Weight", "value": "190 GSM"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Print Type", "value": "Screen Print"},
+        {"label": "Design Elements", "value": "Keys, Olive Branches, Traditional Patterns"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Symbolism", "value": "Palestinian Resilience and Heritage"},
+        {"label": "Production", "value": "Ethical Manufacturing"}
+      ],
+      "reviews": [
+        {
+          "name": "Mohammed Said",
+          "rating": 5,
+          "comment": "The symbolism in this design is powerful and meaningful. The quality is excellent and it's become my favorite shirt for demonstrations.",
+          "date": "1 week ago",
+          "avatar": "MS"
+        },
+        {
+          "name": "Jessica Brown",
+          "rating": 4,
+          "comment": "Beautiful design with deep meaning. The shirt is comfortable and the print quality is great. Hasn't faded after multiple washes.",
+          "date": "2 months ago",
+          "avatar": "JB"
+        },
+        {
+          "name": "Ali Hassan",
+          "rating": 5,
+          "comment": "As a Palestinian, this shirt means everything. The symbols are perfectly represented and the quality is top-notch. Very comfortable to wear.",
+          "date": "3 weeks ago",
+          "avatar": "AH"
+        }
+      ],
+      "tags": ["freedom", "resilience", "popular", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Ring-spun Cotton",
+      "sustainability": "Ethical Manufacturing"
+    },
+    {
+      "id": 7,
+      "name": "Palestinian Heritage Sweatshirt",
+      "price": 54.99,
+      "originalPrice": 64.99,
+      "category": "sweatshirts",
+      "description": "Warm and comfortable sweatshirt featuring traditional Palestinian motifs and calligraphy.",
+      "detailedDescription": "Embrace Palestinian heritage with this cozy sweatshirt featuring traditional motifs and Arabic calligraphy. Made from heavyweight fleece for maximum warmth and comfort. The design incorporates elements from Palestinian architecture, embroidery, and cultural symbols, creating a beautiful representation of heritage.",
+      "rating": 4.5,
+      "reviewCount": 92,
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#FFFDD0",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#800020",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Heavyweight Fleece (90% Cotton, 10% Polyester)"},
+        {"label": "Weight", "value": "340 GSM"},
+        {"label": "Fit", "value": "Relaxed Fit"},
+        {"label": "Design", "value": "Traditional Motifs and Arabic Calligraphy"},
+        {"label": "Print Type", "value": "Direct-to-Garment Print"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Warmth Level", "value": "High"},
+        {"label": "Production", "value": "Local Production Support"}
+      ],
+      "reviews": [
+        {
+          "name": "Rasha Abu",
+          "rating": 5,
+          "comment": "The Arabic calligraphy is beautiful and meaningful. The sweatshirt is incredibly warm and comfortable. Perfect for cold days.",
+          "date": "2 weeks ago",
+          "avatar": "RA"
+        },
+        {
+          "name": "Thomas Green",
+          "rating": 4,
+          "comment": "Great quality sweatshirt with unique design. The heritage motifs are well integrated and the fabric is very comfortable.",
+          "date": "1 month ago",
+          "avatar": "TG"
+        },
+        {
+          "name": "Hana Yassin",
+          "rating": 5,
+          "comment": "Love how this sweatshirt represents our culture. The calligraphy is perfectly done and the quality is excellent. Very warm and cozy.",
+          "date": "3 weeks ago",
+          "avatar": "HY"
+        }
+      ],
+      "tags": ["heritage", "calligraphy", "warm"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "Heavyweight Fleece",
+      "sustainability": "Local Production"
+    },
+    {
+      "id": 8,
+      "name": "Keffiyeh Pattern Hoodie",
+      "price": 64.99,
+      "category": "hoodies",
+      "description": "Modern hoodie with all-over keffiyeh pattern print. Features kangaroo pocket and adjustable drawstrings.",
+      "detailedDescription": "This modern hoodie features an all-over print of the traditional Palestinian keffiyeh pattern, blending heritage with contemporary style. Made from premium cotton blend for ultimate comfort. Features include a kangaroo pocket, adjustable drawstrings, and ribbed cuffs and hem for a perfect fit.",
+      "rating": 4.7,
+      "reviewCount": 113,
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Black & White",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Red & Black",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Green & White",
+          "hex": "#556B2F",
+          "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Premium Cotton Blend (85% Cotton, 15% Polyester)"},
+        {"label": "Weight", "value": "300 GSM"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Pattern", "value": "All-over Keffiyeh Print"},
+        {"label": "Features", "value": "Kangaroo Pocket, Adjustable Drawstrings"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Print Method", "value": "Sublimation Print"},
+        {"label": "Sustainability", "value": "Low-impact Dyes Used"}
+      ],
+      "reviews": [
+        {
+          "name": "Amir Kassem",
+          "rating": 5,
+          "comment": "The all-over keffiyeh pattern looks amazing! The hoodie is comfortable and warm. Perfect combination of tradition and modern style.",
+          "date": "1 week ago",
+          "avatar": "AK"
+        },
+        {
+          "name": "Sofia Martinez",
+          "rating": 4,
+          "comment": "Love the pattern and the fit is perfect. The quality is great and it has become my go-to hoodie. Very comfortable.",
+          "date": "2 months ago",
+          "avatar": "SM"
+        },
+        {
+          "name": "Khalid Farah",
+          "rating": 5,
+          "comment": "Excellent hoodie with beautiful keffiyeh design. The print is vibrant and hasn't faded. Very comfortable for daily wear.",
+          "date": "3 weeks ago",
+          "avatar": "KF"
+        }
+      ],
+      "tags": ["keffiyeh", "pattern", "modern"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Premium Cotton Blend",
+      "sustainability": "Low-impact Dyes"
+    },
+    {
+      "id": 9,
+      "name": "Palestine Flag T-Shirt",
+      "price": 32.99,
+      "category": "tshirts",
+      "description": "Classic t-shirt with vibrant Palestine flag colors and traditional embroidery borders.",
+      "detailedDescription": "Show your pride with this classic t-shirt featuring the vibrant colors of the Palestinian flag accented with traditional embroidery borders. Made from soft jersey cotton for all-day comfort. The design celebrates Palestinian identity while maintaining a clean, wearable aesthetic.",
+      "rating": 4.6,
+      "reviewCount": 156,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Red",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Soft Jersey Cotton"},
+        {"label": "Weight", "value": "160 GSM"},
+        {"label": "Fit", "value": "Classic Fit"},
+        {"label": "Design", "value": "Palestine Flag with Embroidery Borders"},
+        {"label": "Print Type", "value": "Screen Print"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Colors", "value": "Traditional Palestinian Flag Colors"},
+        {"label": "Packaging", "value": "Biodegradable Packaging"}
+      ],
+      "reviews": [
+        {
+          "name": "Jamal Ibrahim",
+          "rating": 5,
+          "comment": "Perfect representation of Palestinian pride. The embroidery borders add a nice traditional touch. Very comfortable fabric.",
+          "date": "2 weeks ago",
+          "avatar": "JI"
+        },
+        {
+          "name": "Emma Wilson",
+          "rating": 4,
+          "comment": "Beautiful design with meaningful colors. The shirt is soft and fits well. Great for showing solidarity.",
+          "date": "1 month ago",
+          "avatar": "EW"
+        },
+        {
+          "name": "Tariq Jaber",
+          "rating": 5,
+          "comment": "Simple yet powerful design. The flag colors are vibrant and the quality is excellent. Very comfortable for everyday wear.",
+          "date": "3 weeks ago",
+          "avatar": "TJ"
+        }
+      ],
+      "tags": ["flag", "patriotic", "classic"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "Soft Jersey Cotton",
+      "sustainability": "Biodegradable Packaging"
+    },
+    {
+      "id": 10,
+      "name": "Tatreez Embroidery Bag",
+      "price": 45.99,
+      "category": "accessories",
+      "description": "Handmade tote bag with intricate tatreez embroidery, perfect for daily use or special occasions.",
+      "detailedDescription": "This handmade tote bag features intricate tatreez embroidery, a traditional Palestinian craft. Each bag is unique, with patterns that tell stories of heritage and culture. Made from durable canvas and linen, it's both practical and beautiful. Perfect for daily use, shopping, or as a special accessory.",
+      "rating": 4.8,
+      "reviewCount": 78,
+      "sizes": ["One Size"],
+      "colors": [
+        {
+          "name": "Natural Linen",
+          "hex": "#FAF0E6",
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black Canvas",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#000080",
+          "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Canvas and Linen"},
+        {"label": "Dimensions", "value": "15\" x 13\" x 4\""},
+        {"label": "Embroidery", "value": "Hand-stitched Tatreez"},
+        {"label": "Handles", "value": "Dual 24\" Handles"},
+        {"label": "Capacity", "value": "Large Capacity Tote"},
+        {"label": "Care Instructions", "value": "Spot clean with damp cloth"},
+        {"label": "Artisans", "value": "Handmade by Palestinian Artisans"},
+        {"label": "Uniqueness", "value": "Each Bag is Unique"}
+      ],
+      "reviews": [
+        {
+          "name": "Mona Haddad",
+          "rating": 5,
+          "comment": "Absolutely beautiful tatreez embroidery! The bag is well-made and sturdy. I use it every day and get so many compliments.",
+          "date": "3 weeks ago",
+          "avatar": "MH"
+        },
+        {
+          "name": "Robert Kim",
+          "rating": 4,
+          "comment": "Great quality bag with meaningful embroidery. Perfect size for groceries or daily essentials. The craftsmanship is impressive.",
+          "date": "1 month ago",
+          "avatar": "RK"
+        },
+        {
+          "name": "Leila Azar",
+          "rating": 5,
+          "comment": "This bag is a work of art! The tatreez patterns are stunning and the quality is excellent. Very durable and practical.",
+          "date": "2 weeks ago",
+          "avatar": "LA"
+        }
+      ],
+      "tags": ["tatreez", "bag", "handmade", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Canvas & Linen",
+      "sustainability": "Artisan Made"
+    },
+    {
+      "id": 11,
+      "name": "Winter Palestine Jacket",
+      "price": 89.99,
+      "originalPrice": 109.99,
+      "category": "jackets",
+      "description": "Insulated winter jacket with traditional Palestinian patterns and modern thermal technology.",
+      "detailedDescription": "Stay warm while representing Palestinian heritage with this insulated winter jacket. Features traditional Palestinian patterns integrated with modern thermal technology. Made from water-resistant outer shell with thermal insulation, perfect for cold weather. The design blends cultural heritage with contemporary winter wear.",
+      "rating": 4.9,
+      "reviewCount": 45,
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Dark Green",
+          "hex": "#023020",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Thermal Polyester Outer Shell"},
+        {"label": "Insulation", "value": "Recycled Polyester Fill"},
+        {"label": "Water Resistance", "value": "Water Resistant"},
+        {"label": "Design", "value": "Traditional Palestinian Patterns"},
+        {"label": "Features", "value": "Zipper Closure, Multiple Pockets"},
+        {"label": "Care Instructions", "value": "Machine wash gentle, Line dry"},
+        {"label": "Warmth", "value": "Heavy Insulation for Cold Weather"},
+        {"label": "Sustainability", "value": "Recycled Insulation Materials"}
+      ],
+      "reviews": [
+        {
+          "name": "Bashar Alami",
+          "rating": 5,
+          "comment": "Excellent winter jacket! Keeps me warm in freezing temperatures and the Palestinian patterns make it unique. Quality is outstanding.",
+          "date": "2 months ago",
+          "avatar": "BA"
+        },
+        {
+          "name": "Nora Salem",
+          "rating": 5,
+          "comment": "Beautiful jacket that combines style with functionality. The insulation works perfectly and the design is meaningful. Highly recommended.",
+          "date": "1 month ago",
+          "avatar": "NS"
+        },
+        {
+          "name": "Daniel Park",
+          "rating": 4,
+          "comment": "Great winter jacket with unique design. Very warm and comfortable. The water resistance works well in light snow.",
+          "date": "3 weeks ago",
+          "avatar": "DP"
+        }
+      ],
+      "tags": ["winter", "insulated", "premium"],
+      "inStock": true,
+      "featured": false,
+      "customizable": false,
+      "material": "Thermal Polyester",
+      "sustainability": "Recycled Insulation"
+    },
+    {
+      "id": 12,
+      "name": "Palestinian Poetry T-Shirt",
+      "price": 36.99,
+      "category": "tshirts",
+      "description": "T-shirt featuring famous Palestinian poetry in beautiful Arabic calligraphy with traditional borders.",
+      "detailedDescription": "Wear poetry on your sleeve with this t-shirt featuring famous Palestinian poetry in beautiful Arabic calligraphy. The design includes traditional borders and motifs, creating a wearable piece of literary art. Made from organic cotton for comfort and sustainability.",
+      "rating": 4.7,
+      "reviewCount": 89,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Olive",
+          "hex": "#556B2F",
+          "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Sand",
+          "hex": "#C2B280",
+          "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% Organic Cotton"},
+        {"label": "Weight", "value": "180 GSM"},
+        {"label": "Fit", "value": "Regular Fit"},
+        {"label": "Calligraphy", "value": "Arabic Poetry by Famous Palestinian Poets"},
+        {"label": "Design", "value": "Traditional Borders and Motifs"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Poetry", "value": "Features Works by Mahmoud Darwish"},
+        {"label": "Sustainability", "value": "Carbon Neutral Production"}
+      ],
+      "reviews": [
+        {
+          "name": "Nour Abed",
+          "rating": 5,
+          "comment": "As a poetry lover, this shirt is perfect. The calligraphy is beautiful and the poem choice is meaningful. Quality is excellent.",
+          "date": "2 weeks ago",
+          "avatar": "NA"
+        },
+        {
+          "name": "Kamal Zayed",
+          "rating": 5,
+          "comment": "Beautiful representation of Palestinian culture through poetry. The calligraphy is expertly done and the shirt is very comfortable.",
+          "date": "1 month ago",
+          "avatar": "KZ"
+        },
+        {
+          "name": "Sophia Lee",
+          "rating": 4,
+          "comment": "Stunning design with meaningful poetry. The Arabic calligraphy adds an artistic touch. Very comfortable fabric.",
+          "date": "3 weeks ago",
+          "avatar": "SL"
+        }
+      ],
+      "tags": ["poetry", "calligraphy", "cultural"],
+      "inStock": true,
+      "featured": true,
+      "customizable": true,
+      "material": "Organic Cotton",
+      "sustainability": "Carbon Neutral"
+    },
+    {
+      "id": 13,
+      "name": "Palestine Athletic Hoodie",
+      "price": 59.99,
+      "category": "hoodies",
+      "description": "Performance hoodie with moisture-wicking fabric featuring Palestine athletic designs.",
+      "detailedDescription": "Designed for active lifestyles, this performance hoodie features moisture-wicking fabric and Palestine athletic designs. Perfect for workouts, sports, or casual wear. The technical fabric keeps you dry and comfortable during physical activities while representing Palestinian pride.",
+      "rating": 4.6,
+      "reviewCount": 67,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "Charcoal",
+          "hex": "#36454F",
+          "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Red",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Moisture-wicking Polyester"},
+        {"label": "Weight", "value": "280 GSM"},
+        {"label": "Fit", "value": "Athletic Fit"},
+        {"label": "Features", "value": "Moisture-wicking, Quick-dry"},
+        {"label": "Design", "value": "Palestine Athletic Graphics"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Performance", "value": "Designed for Athletic Activities"},
+        {"label": "Printing", "value": "Eco-friendly Printing Methods"}
+      ],
+      "reviews": [
+        {
+          "name": "Fadi Rizk",
+          "rating": 5,
+          "comment": "Perfect for workouts! The moisture-wicking fabric works great and the design is motivating. Very comfortable during exercise.",
+          "date": "1 week ago",
+          "avatar": "FR"
+        },
+        {
+          "name": "Lina Malek",
+          "rating": 4,
+          "comment": "Great athletic hoodie with meaningful design. Keeps me dry during workouts and looks good too. Quality is excellent.",
+          "date": "2 months ago",
+          "avatar": "LM"
+        },
+        {
+          "name": "Mark Thompson",
+          "rating": 5,
+          "comment": "Excellent performance hoodie. The fabric is perfect for sports and the Palestinian design adds meaningful motivation.",
+          "date": "3 weeks ago",
+          "avatar": "MT"
+        }
+      ],
+      "tags": ["athletic", "performance", "sport"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "Moisture-wicking Polyester",
+      "sustainability": "Eco-friendly Printing"
+    },
+    {
+      "id": 14,
+      "name": "Traditional Scarf (Keffiyeh)",
+      "price": 24.99,
+      "originalPrice": 29.99,
+      "category": "accessories",
+      "description": "Authentic Palestinian keffiyeh scarf made from traditional cotton fabric with iconic patterns.",
+      "detailedDescription": "The iconic Palestinian keffiyeh, made from traditional cotton fabric with the iconic fishnet pattern. This authentic scarf is versatile - wear it as a headscarf, neck scarf, or shawl. Each keffiyeh tells a story of Palestinian heritage and resistance.",
+      "rating": 4.9,
+      "reviewCount": 203,
+      "sizes": ["One Size"],
+      "colors": [
+        {
+          "name": "Black & White",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Red & White",
+          "hex": "#CE1126",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Green & White",
+          "hex": "#556B2F",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% Cotton"},
+        {"label": "Dimensions", "value": "43\" x 43\""},
+        {"label": "Pattern", "value": "Traditional Fishnet Pattern"},
+        {"label": "Fringe", "value": "Traditional Fringed Edges"},
+        {"label": "Versatility", "value": "Headscarf, Neck Scarf, Shawl"},
+        {"label": "Care Instructions", "value": "Hand wash cold, Line dry"},
+        {"label": "Heritage", "value": "Traditional Palestinian Craft"},
+        {"label": "Symbolism", "value": "Iconic Symbol of Palestinian Identity"}
+      ],
+      "reviews": [
+        {
+          "name": "Zainab Qasim",
+          "rating": 5,
+          "comment": "Authentic keffiyeh with perfect quality. The fabric is soft and the pattern is traditional. A must-have for every Palestinian.",
+          "date": "2 weeks ago",
+          "avatar": "ZQ"
+        },
+        {
+          "name": "Alex Morgan",
+          "rating": 5,
+          "comment": "Beautiful traditional scarf. Versatile and meaningful. The quality is excellent and it's become my favorite accessory.",
+          "date": "1 month ago",
+          "avatar": "AM"
+        },
+        {
+          "name": "Hassan Naji",
+          "rating": 5,
+          "comment": "Perfect keffiyeh! The traditional pattern is authentic and the quality is superior. Very comfortable to wear.",
+          "date": "3 weeks ago",
+          "avatar": "HN"
+        }
+      ],
+      "tags": ["keffiyeh", "scarf", "traditional", "featured"],
+      "inStock": true,
+      "featured": true,
+      "customizable": false,
+      "material": "100% Cotton",
+      "sustainability": "Heritage Craft"
+    },
+    {
+      "id": 15,
+      "name": "Palestine Graphic Sweatshirt",
+      "price": 52.99,
+      "category": "sweatshirts",
+      "description": "Graphic sweatshirt with modern Palestine-themed artwork and comfortable fleece lining.",
+      "detailedDescription": "This graphic sweatshirt features modern Palestine-themed artwork, blending contemporary design with cultural themes. Made from fleece-lined cotton for ultimate comfort and warmth. Perfect for casual wear while making a statement of solidarity.",
+      "rating": 4.5,
+      "reviewCount": 94,
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Heather Grey",
+          "hex": "#D3D3D3",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080",
+          "image": "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "Fleece-lined Cotton (90% Cotton, 10% Polyester)"},
+        {"label": "Weight", "value": "320 GSM"},
+        {"label": "Fit", "value": "Relaxed Fit"},
+        {"label": "Design", "value": "Modern Palestine Graphic Art"},
+        {"label": "Print Type", "value": "Direct-to-Garment Print"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Tumble dry low"},
+        {"label": "Warmth", "value": "Fleece Lining for Extra Warmth"},
+        {"label": "Inks", "value": "Water-based Eco-friendly Inks"}
+      ],
+      "reviews": [
+        {
+          "name": "Rami Yusuf",
+          "rating": 4,
+          "comment": "Great graphic sweatshirt with modern design. Very comfortable and warm. The artwork is meaningful and well-executed.",
+          "date": "2 weeks ago",
+          "avatar": "RY"
+        },
+        {
+          "name": "Jenny Carter",
+          "rating": 5,
+          "comment": "Love the modern design and the message it carries. The sweatshirt is cozy and perfect for casual days. Quality is excellent.",
+          "date": "1 month ago",
+          "avatar": "JC"
+        },
+        {
+          "name": "Omar Faris",
+          "rating": 4,
+          "comment": "Excellent sweatshirt with meaningful graphics. The fleece lining makes it very warm and comfortable. Great for everyday wear.",
+          "date": "3 weeks ago",
+          "avatar": "OF"
+        }
+      ],
+      "tags": ["graphic", "modern", "art"],
+      "inStock": true,
+      "featured": false,
+      "customizable": true,
+      "material": "Fleece-lined Cotton",
+      "sustainability": "Water-based Inks"
+    },
+    {
+      "id": 16,
+      "name": "Premium Denim Jacket",
+      "price": 84.99,
+      "category": "jackets",
+      "description": "Denim jacket with hand-embroidered Palestinian motifs and premium hardware.",
+      "detailedDescription": "This premium denim jacket features hand-embroidered Palestinian motifs, combining classic denim style with traditional craftsmanship. Made from 100% cotton denim with premium hardware. The embroidery adds a unique touch to this timeless wardrobe staple.",
+      "rating": 4.8,
+      "reviewCount": 56,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {
+          "name": "Light Wash",
+          "hex": "#87CEEB",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Dark Wash",
+          "hex": "#191970",
+          "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "specifications": [
+        {"label": "Material", "value": "100% Cotton Denim"},
+        {"label": "Weight", "value": "12 oz Denim"},
+        {"label": "Embroidery", "value": "Hand-embroidered Palestinian Motifs"},
+        {"label": "Hardware", "value": "Premium Metal Buttons and Zipper"},
+        {"label": "Fit", "value": "Classic Denim Jacket Fit"},
+        {"label": "Care Instructions", "value": "Machine wash cold, Inside out"},
+        {"label": "Wash", "value": "Vintage Wash Process"},
+        {"label": "Craftsmanship", "value": "Hand-finished Details"}
+      ],
+      "reviews": [
+        {
+          "name": "Salma Khoury",
+          "rating": 5,
+          "comment": "Beautiful denim jacket with exquisite embroidery. The quality is exceptional and it fits perfectly. A unique piece I'll cherish.",
+          "date": "2 months ago",
+          "avatar": "SK"
+        },
+        {
+          "name": "George Matar",
+          "rating": 4,
+          "comment": "Great quality denim jacket with meaningful embroidery. The vintage wash looks excellent and the fit is perfect.",
+          "date": "1 month ago",
+          "avatar": "GM"
+        },
+        {
+          "name": "Dina Shammas",
+          "rating": 5,
+          "comment": "Stunning jacket! The embroidery is beautifully done and adds a special touch to a classic piece. Quality is top-notch.",
+          "date": "3 weeks ago",
+          "avatar": "DS"
+        }
+      ],
+      "tags": ["denim", "premium", "embroidered"],
+      "inStock": true,
+      "featured": true,
+      "customizable": false,
+      "material": "100% Cotton Denim",
+      "sustainability": "Vintage Wash Process"
+    }
+  ],
+
+  "categories": [
+    {"id": "tshirts", "name": "T-Shirts", "count": 12},
+    {"id": "hoodies", "name": "Hoodies", "count": 8},
+    {"id": "sweatshirts", "name": "Sweatshirts", "count": 6},
+    {"id": "jackets", "name": "Jackets", "count": 4},
+    {"id": "accessories", "name": "Accessories", "count": 5}
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Layla Hassan",
+      "location": "Ramallah",
+      "rating": 5,
+      "comment": "The quality of these shirts is exceptional! The keffiyeh design is beautifully printed and the fabric feels amazing. Every piece tells a story of our heritage.",
+      "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+      "date": "2023-10-15"
+    },
+    {
+      "id": 2,
+      "name": "Omar Khalil",
+      "location": "Gaza",
+      "rating": 5,
+      "comment": "As a Palestinian living abroad, wearing these designs makes me feel connected to home. The embroidery work is authentic and the materials are top-quality.",
+      "avatar": "https://randomuser.me/api/portraits/men/54.jpg",
+      "date": "2023-11-02"
+    },
+    {
+      "id": 3,
+      "name": "Rana Suleiman",
+      "location": "Jerusalem",
+      "rating": 4,
+      "comment": "Beautiful designs that celebrate our culture. I ordered custom shirts for my entire family and they arrived perfectly. The customer service was excellent!",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
+      "date": "2023-11-20"
+    }
+  ],
+  "designers": [
+    {
+      "id": 1,
+      "name": "Nour Abed",
+      "role": "Head Designer",
+      "bio": "Specializes in traditional Palestinian tatreez patterns and modern interpretations of cultural symbols.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samir Nasser",
+      "role": "Embroidery Specialist",
+      "bio": "Master of traditional Palestinian embroidery techniques with 15 years of experience.",
+      "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mona Haddad",
+      "role": "Textile Artist",
+      "bio": "Expert in sustainable fabrics and natural dye techniques using traditional Palestinian methods.",
+      "avatar": "https://randomuser.me/api/portraits/women/28.jpg"
+    }
+  ]
+}

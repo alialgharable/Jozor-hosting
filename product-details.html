@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | StyleCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+
+    <!-- Arabic and Palestinian Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇸</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="flag">🇵🇸</span>
+                <span class="logo-text">Falasteen<span class="highlight">Threads</span></span>
+            </a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">
+                        <i class="fas fa-home"></i> Home
+                    </a></li>
+                    <li><a href="product.html" class="nav-link">
+                        <i class="fas fa-tshirt"></i> Products
+                    </a></li>
+                    <li><a href="services.html" class="nav-link">
+                        <i class="fas fa-paint-brush"></i> Customize
+                    </a></li>
+                    <li><a href="about.html" class="nav-link">
+                        <i class="fas fa-mosque"></i> About
+                    </a></li>
+                    <li><a href="cart.html" class="nav-link cart-link">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                
+                <div class="nav-extra">
+                    <div class="theme-toggle">
+                        <button id="themeToggle" class="theme-btn">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark Mode</span>
+                        </button>
+                    </div>
+                    
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-language"></i>
+                            <span>عربي</span>
+                        </button>
+                    </div>
+                    
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Details -->
+    <section class="product-details section-padding">
+        <div class="container">
+            <div class="product-layout">
+                <!-- Product Images -->
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="" alt="Product Image" id="mainImage">
+                        <span class="badge" id="productBadge">Best Seller</span>
+                    </div>
+                    
+                    <div class="image-thumbnails" id="imageThumbnails">
+                        <!-- Thumbnails will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <!-- Product Info -->
+                <div class="product-info">
+                    <nav class="breadcrumb">
+                        <a href="index.html">Home</a> / 
+                        <a href="product.html">Products</a> / 
+                        <span id="productName">Product Name</span>
+                    </nav>
+                    
+                    <h1 class="product-title" id="productTitle">Product Name</h1>
+                    
+                    <div class="product-rating">
+                        <div class="stars" id="productStars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-value" id="ratingValue">4.5 (128 reviews)</span>
+                    </div>
+                    
+                    <div class="product-price">
+                        <span class="current-price" id="currentPrice">$29.99</span>
+                        <span class="original-price" id="originalPrice">$39.99</span>
+                        <span class="discount" id="discountTag">25% OFF</span>
+                    </div>
+                    
+                    <div class="product-description">
+                        <p id="productDescription">Product description will be loaded here.</p>
+                        
+                        <ul class="features" id="productFeatures">
+                            <!-- Features will be loaded dynamically -->
+                        </ul>
+                    </div>
+                    
+                    <!-- Customization Options -->
+                    <div class="customization-options">
+                        <div class="option-group">
+                            <h3>Size</h3>
+                            <div class="size-options" id="sizeOptions">
+                                <!-- Size options will be loaded dynamically -->
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <h3>Color</h3>
+                            <div class="color-options" id="colorOptions">
+                                <!-- Color options will be loaded dynamically -->
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <h3>Quantity</h3>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" class="quantity-input" value="1" min="1" max="10">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="product-actions">
+                        <button class="btn btn-primary btn-lg add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="btn btn-outline btn-lg wishlist-btn">
+                            <i class="far fa-heart"></i> Add to Wishlist
+                        </button>
+                        <button class="btn btn-outline btn-lg whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Customize via WhatsApp
+                        </button>
+                    </div>
+                    
+                    <!-- Product Meta -->
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <strong>Free Shipping</strong>
+                                <span>On orders over $50</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-undo"></i>
+                            <div>
+                                <strong>30-Day Returns</strong>
+                                <span>Easy returns policy</span>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <strong>Quality Guarantee</strong>
+                                <span>Premium materials used</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Tabs -->
+    <section class="product-tabs">
+        <div class="container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="specifications">Specifications</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+                <button class="tab-btn" data-tab="customization">Customization</button>
+            </div>
+            
+            <div class="tabs-content">
+                <div class="tab-pane active" id="description">
+                    <h3>Product Details</h3>
+                    <p id="detailedDescription">Detailed product description will be loaded here.</p>
+                    
+                    <h3>Perfect for Customization</h3>
+                    <p>This product is an excellent canvas for your custom designs. Whether you prefer screen printing, embroidery, or heat transfer, our premium fabric ensures your designs look sharp and vibrant.</p>
+                    
+                    <div class="image-gallery">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Custom Print Example">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Embroidery Example">
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="specifications">
+                    <table class="specs-table" id="specsTable">
+                        <!-- Specifications will be loaded dynamically -->
+                    </table>
+                </div>
+                
+                <div class="tab-pane" id="reviews">
+                    <div class="reviews-summary">
+                        <div class="overall-rating">
+                            <div class="rating-number" id="overallRating">4.5</div>
+                            <div class="rating-stars" id="overallStars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-text" id="totalReviews">Based on 128 reviews</div>
+                        </div>
+                        
+                        <div class="rating-bars" id="ratingBars">
+                            <!-- Rating bars will be loaded dynamically -->
+                        </div>
+                    </div>
+                    
+                    <div class="reviews-list" id="reviewsList">
+                        <!-- Reviews will be loaded dynamically -->
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="customization">
+                    <h3>Customization Options</h3>
+                    <p>Transform this product into your unique statement piece with our customization services.</p>
+                    
+                    <div class="customization-options-list">
+                        <div class="custom-option">
+                            <i class="fas fa-print"></i>
+                            <div>
+                                <h4>Screen Printing</h4>
+                                <p>Vibrant, durable prints perfect for logos, artwork, and text. Minimum order: 10 pieces.</p>
+                            </div>
+                            <span class="price">From $5/print</span>
+                        </div>
+                        
+                        <div class="custom-option">
+                            <i class="fas fa-thread"></i>
+                            <div>
+                                <h4>Embroidery</h4>
+                                <p>Professional embroidery for a premium look. Ideal for logos and monograms.</p>
+                            </div>
+                            <span class="price">From $8/design</span>
+                        </div>
+                        
+                        <div class="custom-option">
+                            <i class="fas fa-paint-brush"></i>
+                            <div>
+                                <h4>Direct-to-Garment</h4>
+                                <p>High-resolution full-color prints with no minimum order quantity.</p>
+                            </div>
+                            <span class="price">From $15/shirt</span>
+                        </div>
+                    </div>
+                    
+                    <div class="customization-cta">
+                        <p>Ready to create your custom design?</p>
+                        <a href="services.html" class="btn btn-primary">Start Designing</a>
+                        <button class="btn btn-outline whatsapp-consult">
+                            <i class="fab fa-whatsapp"></i> Consult via WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">You May Also Like</h2>
+                <p class="section-subtitle">Check out these similar products</p>
+            </div>
+            
+            <div class="products-grid" id="relatedProductsGrid">
+                <!-- Related products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="flag">🇵🇸</span>
+                        Falasteen<span class="highlight">Threads</span>
+                    </a>
+                    <p class="arabic-text">نحمل تراب الوطن في كل خيط</p>
+                    <p>Preserving Palestinian heritage through sustainable fashion. Each stitch tells our story.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#">Keffiyeh Collection</a></li>
+                        <li><a href="#">Tatreez Embroidery</a></li>
+                        <li><a href="#">Olive Branch Series</a></li>
+                        <li><a href="#">Al-Quds Designs</a></li>
+                        <li><a href="#">Freedom Fighter Apparel</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Custom Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="cart.html">Shopping Cart</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@falasteenthreads.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +1 (234) 567-8900</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Everywhere Palestine Lives</p>
+                    </div>
+                    
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Falasteen Threads. All rights reserved. <span class="arabic-text">فلسطين حرة</span></p>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cultural Initiatives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product-details.js"></script>
+</body>
+</html>
